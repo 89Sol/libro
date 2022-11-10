@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  background-color: #47A898;
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+
+
+section{
+  
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),url('../images/cortazar.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+p{   
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.90), rgba(117, 19, 93, 0.70)) no-repeat center center fixed; 
+  margin: 3em;
+  padding: 2em;
+  line-height: 2em;
+  border: solid white;
+  border-radius: 10px 50px;
+  /*redondear esquinas,top botton10px/right left50px*/
+  box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+/********* footer *******/
+footer{
+  background-color: black;
+  color: white;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+
+footer a{
+color: #47A898;
+text-decoration: none;
+
+}
+
+/********* footer *******/

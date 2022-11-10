@@ -1,0 +1,84 @@
+/*getbootstrap.com ver los tamaños */
+
+
+/*versio tablet*/
+@media screen and (min-width: 768px){
+.intro .contenedor {
+
+    align-items: flex-start;
+   
+}
+
+.card{
+
+width: 90%;
+min-height: 400px;
+max-height: 400px;
+}
+
+.card i{
+    display:inline-block; 
+
+}
+
+
+
+
+}
+    
+/*versio pc*/
+
+@media screen and (min-width: 1200px){
+
+
+.toggler{
+    display: none;
+    }
+
+nav{
+    
+    display: inline-block !important; /*pisa todo lo anterior*/
+    width: 80vw; /*sino hace que el logo se modifique por q intenta ocupar tod oel espacio*/
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-between; /*queda en la misma linea*/
+}
+
+.mainnav {
+    height: 1em;
+
+}
+.mainnav ul {
+    display: flex;
+    flex-direction: row; 
+    justify-content: right;
+    left: 60%;
+   
+     /*en el estilo original esta en flex por eso cambiamos a row*/  
+ }
+
+.mainnav ul li {
+    display: inline-block;
+    padding-right: 20px;
+   
+}
+
+
+.contenedor {
+    width: 1000px; 
+    margin: auto;
+}
+/*calculamos el tamano del contenedor del texto y mide eso*/
+
+#cuentos {
+    display: flex;
+    flex-direction: row;
+    }
+
+.card{
+    width: 30%;
+}
+}
